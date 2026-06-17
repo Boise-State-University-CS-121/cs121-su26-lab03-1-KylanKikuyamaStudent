@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 
 public class SphereCalculator 
@@ -6,7 +5,6 @@ public class SphereCalculator
     public static void main(String[] args)
     {
         Scanner kbd = new Scanner(System.in);
-        Random myGen = new Random();
 
         //Input Processing
         System.out.print("Enter the sphere's radius: ");
